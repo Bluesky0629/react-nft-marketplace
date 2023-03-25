@@ -1,0 +1,55 @@
+/* Turn off right justify title in mobile */
+/* .navbar-brand {
+    margin-right: auto !important;
+  } */
+
+.container,
+.container-fluid {
+  margin-top: 5px;
+}
+
+/* alice carusel customize */
+
+.alice-carousel__wrapper{
+  border-radius: 1rem;
+}
+.alice-carousel__dots .alice-carousel__dots-item {
+  width: 40px;
+  height: 8px;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.alice-carousel__dots-item:not(.__custom):not(:last-child){
+  margin-right: 5px;
+}
+
+.alice-carousel__prev-btn {
+  display: none;
+}
+
+.alice-carousel__next-btn {
+  display: none;
+}
+
+.alice-carousel__dots {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  translate: -50% 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* trend select */
+
+.form-select{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.form-select option{
+  background-color: transparent;
+  color: white;
+}
